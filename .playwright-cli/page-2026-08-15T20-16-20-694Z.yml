@@ -1,0 +1,73 @@
+- generic [active] [ref=f1e1]:
+  - link "Skip to form" [ref=f1e2] [cursor=pointer]:
+    - /url: "#auth-form"
+  - main [ref=f1e3]:
+    - region "MedCon student community" [ref=f1e4]:
+      - generic [ref=f1e5]:
+        - img "Medical students learning together in class" [ref=f1e6]
+        - img "Medical students studying anatomy" [ref=f1e7]
+        - img "Doctor of Medicine students on campus" [ref=f1e8]
+        - img "Medical graduates celebrating their achievement" [ref=f1e9]
+      - link "MedCon home" [ref=f1e11] [cursor=pointer]:
+        - /url: ../index.php
+        - img "MedCon" [ref=f1e12]
+      - generic [ref=f1e13]:
+        - generic [ref=f1e14]: Start with clarity
+        - heading "Your route to medical school begins here." [level=2] [ref=f1e15]
+        - paragraph [ref=f1e16]: Create your student account to organise applications, documents and admissions guidance.
+    - generic [ref=f1e19]:
+      - generic [ref=f1e20]:
+        - generic [ref=f1e21]:
+          - generic [ref=f1e22]: Already registered?
+          - link "Sign in" [ref=f1e23] [cursor=pointer]:
+            - /url: login.php
+        - generic [ref=f1e24]:
+          - generic [ref=f1e25]: Student registration
+          - heading "Create your account" [level=1] [ref=f1e26]
+          - paragraph [ref=f1e27]: Enter your details to open your MedCon student profile.
+        - generic [ref=f1e28]:
+          - generic [ref=f1e29]:
+            - generic [ref=f1e30]:
+              - generic [ref=f1e31]: First name
+              - textbox "First name" [ref=f1e32]
+            - generic [ref=f1e33]:
+              - generic [ref=f1e34]: Last name
+              - textbox "Last name" [ref=f1e35]
+            - generic [ref=f1e36]:
+              - generic [ref=f1e37]: Email address
+              - textbox "Email address" [ref=f1e38]
+            - generic [ref=f1e39]:
+              - generic [ref=f1e40]: Phone number
+              - textbox "Phone number" [ref=f1e41]
+            - generic [ref=f1e42]:
+              - generic [ref=f1e43]: Country
+              - textbox "Country" [ref=f1e44]
+            - generic [ref=f1e45]:
+              - generic [ref=f1e46]: Password
+              - textbox "Password Minimum 8 characters" [ref=f1e47]
+              - generic [ref=f1e48]: Minimum 8 characters
+            - generic [ref=f1e49]:
+              - generic [ref=f1e50]: Confirm password
+              - textbox "Confirm password" [ref=f1e51]
+          - generic [ref=f1e52]:
+            - checkbox "I agree to the Terms of Use and Privacy Policy." [ref=f1e53]
+            - generic [ref=f1e54]:
+              - text: I agree to the
+              - link "Terms of Use" [ref=f1e55] [cursor=pointer]:
+                - /url: ../terms.php
+              - text: and
+              - link "Privacy Policy" [ref=f1e56] [cursor=pointer]:
+                - /url: ../privacy-policy.php
+              - text: .
+          - button "Create account" [ref=f1e57] [cursor=pointer]:
+            - text: Create account
+            - generic [ref=f1e58]: →
+      - generic [ref=f1e59]:
+        - generic [ref=f1e60]: Medical Consultants Education Nigeria Limited
+        - generic [ref=f1e61]:
+          - link "Privacy" [ref=f1e62] [cursor=pointer]:
+            - /url: ../privacy-policy.php
+          - link "Terms" [ref=f1e63] [cursor=pointer]:
+            - /url: ../terms.php
+          - link "Support" [ref=f1e64] [cursor=pointer]:
+            - /url: ../contact.php

@@ -1,0 +1,7 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+js-eu1.hsforms.net	TRUE	/	FALSE	1999999999	__cf_bm	Uqwlxusyz4jEKdANyVRtEawjlNRt_SSAjTx3Xue1bGc-1786808372.5837452-1.0.1.1-j.dOfsRN6eGr3BL1IKoPXMqkGxk1V1atsWgvqLI9nKtzxAtDXy_EiikcrA3Fk3IV5Ie4j.o4LnFWR_B7bvuYCIXXCuMCX2Kt0G11fGVs8cELZdKjROfOjiTw.bxcIGzi
+hsforms.net	TRUE	/	FALSE	1999999999	SameSite	None
+js-eu1.hs-scripts.com	TRUE	/	FALSE	1999999999	__cf_bm	N2Bd2leADyiCUx02dfAr93N1ZkpEhpl0nxflbwvcXq4-1786808378.3790452-1.0.1.1-H6YmtGQhIFW6G_X9WLdZ83C.G8iR2a1Wx2f4Lh_VOOkrLsWuuumyjQHi.I9x4HJPq.0EcR6ezfLLUGTaxdXhTR2b1PuEjMOaY.FP.IeVpuj9g7h.Ynm2E4iC6qk132Pq
+hs-scripts.com	TRUE	/	FALSE	1999999999	SameSite	None
+

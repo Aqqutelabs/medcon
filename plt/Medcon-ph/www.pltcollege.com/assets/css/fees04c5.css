@@ -1,0 +1,217 @@
+/* ================================================================
+ * pltcollege.com — Page-Specific CSS: fees.css
+ * Loaded only on this page via $meta['page_css_file']
+ * Combined with global.css (which loads first)
+ * ================================================================ */
+
+.fee-snap { margin-top: 22px; background: var(--navy); border-radius: 16px; padding: 20px; position: relative; overflow: hidden; }
+
+.fee-snap::before { content: ''; position: absolute; top: -30px; right: -30px; width: 100px; height: 100px; background: rgba(46,204,113,.1); border-radius: 50%; }
+
+.fsnap-title { font-family: 'Plus Jakarta Sans', sans-serif; font-size: .95rem; color: #fff; font-weight: 700; margin-bottom: 3px; }
+
+.fsnap-sub { color: rgba(255,255,255,.5); font-size: .72rem; margin-bottom: 15px; }
+
+.fsnap-rows { display: flex; flex-direction: column; gap: 7px; margin-bottom: 14px; }
+
+.fsnap-row { display: flex; justify-content: space-between; align-items: center; padding: 8px 11px; background: rgba(255,255,255,.07); border-radius: 8px; }
+
+.fsnap-lbl { color: rgba(255,255,255,.68); font-size: .76rem; font-weight: 600; }
+
+.fsnap-val { color: #fff; font-size: .82rem; font-weight: 800; }
+
+.fsnap-total { display: flex; justify-content: space-between; align-items: center; padding: 11px; background: rgba(26,122,60,.25); border: 1px solid rgba(46,204,113,.3); border-radius: 10px; margin-bottom: 14px; }
+
+.fsnap-total .fsnap-lbl { color: rgba(255,255,255,.85); font-weight: 700; }
+
+.fsnap-total .fsnap-val { color: #7ef0a8; font-size: .98rem; }
+
+.fsnap-btn { display: block; background: var(--green); color: #fff; padding: 10px 14px; border-radius: 9px; font-weight: 800; font-size: .82rem; text-align: center; transition: .2s; margin-bottom: 8px; }
+
+.fsnap-btn:hover { background: #14602f; }
+
+.fsnap-wa { display: flex; align-items: center; justify-content: center; gap: 6px; background: #25d366; color: #fff; padding: 10px 14px; border-radius: 9px; font-weight: 800; font-size: .82rem; transition: .2s; }
+
+.fsnap-wa:hover { background: #1da855; }
+
+.cost-hero-panel { background: linear-gradient(135deg,var(--navy),var(--blue)); border-radius: 20px; padding: 36px; display: grid; grid-template-columns: 1fr 260px; gap: 32px; align-items: center; margin-bottom: 48px; }
+
+.chp-left h2 { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 1.5rem; color: #fff; font-weight: 700; margin-bottom: 10px; }
+
+.chp-left p { color: rgba(255,255,255,.65); font-size: .9rem; line-height: 1.7; margin-bottom: 18px; }
+
+.chp-pills { display: flex; flex-wrap: wrap; gap: 8px; }
+
+.chp-pill { background: rgba(255,255,255,.1); border: 1px solid rgba(255,255,255,.15); color: rgba(255,255,255,.85); font-size: .74rem; font-weight: 700; padding: 5px 12px; border-radius: 20px; }
+
+.chp-right { background: rgba(255,255,255,.07); border: 1px solid rgba(255,255,255,.12); border-radius: 16px; padding: 28px; text-align: center; }
+
+.chp-num { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 3rem; font-weight: 800; color: #fff; line-height: 1; }
+
+.chp-num span { color: var(--lg); font-size: 2rem; }
+
+.chp-lbl { color: rgba(255,255,255,.55); font-size: .76rem; font-weight: 600; margin-top: 6px; }
+
+.chp-vs { color: #7ef0a8; font-size: .8rem; font-weight: 700; margin-top: 8px; }
+
+.chp-btns { display: flex; gap: 10px; margin-top: 16px; justify-content: center; flex-wrap: wrap; }
+
+.chp-btn-g { background: var(--green); color: #fff; padding: 10px 18px; border-radius: 9px; font-weight: 800; font-size: .82rem; transition: .2s; }
+
+.chp-btn-g:hover { background: #14602f; }
+
+.chp-btn-w { background: #25d366; color: #fff; padding: 10px 18px; border-radius: 9px; font-weight: 800; font-size: .82rem; transition: .2s; display: flex; align-items: center; gap: 5px; }
+
+.chp-btn-w:hover { background: #1da855; }
+
+.fee-table { background: #fff; border: 1px solid var(--lgray); border-radius: 16px; overflow: hidden; box-shadow: var(--sh); }
+
+.ft-head { background: var(--navy); padding: 16px 22px; display: flex; justify-content: space-between; align-items: center; }
+
+.ft-head h3 { font-family: 'Plus Jakarta Sans', sans-serif; color: #fff; font-size: .95rem; font-weight: 700; }
+
+.ft-head span { color: #7ef0a8; font-size: .74rem; font-weight: 700; background: rgba(46,204,113,.2); padding: 3px 10px; border-radius: 12px; }
+
+.ft-row { display: grid; grid-template-columns: 2.2fr 1fr 1fr; align-items: center; padding: 13px 22px; border-bottom: 1px solid var(--lgray); transition: background .15s; }
+
+.ft-row:last-child { border: none; }
+
+.ft-row:hover:not(.ft-header):not(.ft-total) { background: rgba(42,91,215,.02); }
+
+.ft-header { background: var(--off); padding: 10px 22px; }
+
+.ft-total { background: rgba(26,122,60,.05); }
+
+.ft-item { display: flex; align-items: center; gap: 10px; font-size: .87rem; color: var(--text); font-weight: 500; }
+
+.ft-item .ico { font-size: 1.1rem; flex-shrink: 0; }
+
+.ft-header .ft-item { font-size: .71rem; font-weight: 800; text-transform: uppercase; letter-spacing: .08em; color: var(--gray); }
+
+.ft-annual { font-size: .87rem; font-weight: 700; color: var(--navy); }
+
+.ft-total5 { font-size: .87rem; font-weight: 800; color: var(--green); }
+
+.ft-total .ft-item { font-weight: 800; color: var(--navy); }
+
+.ft-total .ft-total5 { font-size: .95rem; }
+
+.ft-note { font-size: .72rem; color: var(--gray); padding: 10px 22px 14px; line-height: 1.55; }
+
+.expense-tags { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
+
+.exp-tag { background: var(--off); border: 1.5px solid var(--lgray); padding: 9px 15px; border-radius: 28px; font-size: .83rem; font-weight: 700; color: var(--navy); transition: .2s; display: flex; align-items: center; gap: 7px; }
+
+.exp-tag:hover { background: var(--navy); color: #fff; border-color: var(--navy); }
+
+.exp-tag span { font-size: 1rem; }
+
+.compare-wrap { background: #fff; border: 1px solid var(--lgray); border-radius: 16px; overflow: hidden; box-shadow: var(--sh); }
+
+.cmp-row:hover:not(.cmp-header) { background: rgba(42,91,215,.02); }
+
+.cmp-header { background: var(--off); }
+
+.cmp-header .cmp-cell { font-size: .71rem; font-weight: 800; text-transform: uppercase; letter-spacing: .07em; color: var(--gray); padding: 10px 14px; }
+
+.cmp-header .cmp-cell.hl { color: var(--green); font-size: .8rem; }
+
+.best-badge { display: inline-flex; align-items: center; gap: 3px; background: var(--green); color: #fff; font-size: .62rem; font-weight: 800; padding: 2px 7px; border-radius: 8px; margin-left: 5px; }
+
+.pay-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 22px; }
+
+.pay-card { background: #fff; border: 1px solid var(--lgray); border-radius: 14px; padding: 22px; display: flex; gap: 15px; align-items: flex-start; transition: .2s; }
+
+.pay-card:hover { box-shadow: var(--sh); transform: translateY(-2px); }
+
+.pay-ico { width: 46px; height: 46px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 1.4rem; background: linear-gradient(135deg,rgba(10,31,92,.07),rgba(26,122,60,.07)); flex-shrink: 0; }
+
+.pay-card h4 { font-size: .89rem; font-weight: 800; color: var(--navy); margin-bottom: 4px; }
+
+.pay-card p { font-size: .8rem; color: var(--gray); line-height: 1.55; }
+
+.enq-strip { background: linear-gradient(135deg,rgba(26,122,60,.08),rgba(10,31,92,.05)); border: 1px solid var(--lgray); border-radius: 16px; padding: 28px; display: grid; grid-template-columns: 1fr auto; gap: 20px; align-items: center; margin-top: 22px; }
+
+.enq-left h4 { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 1.1rem; color: var(--navy); font-weight: 700; margin-bottom: 6px; }
+
+.enq-left p { font-size: .88rem; color: var(--gray); line-height: 1.55; }
+
+.enq-btns { display: flex; flex-direction: column; gap: 8px; flex-shrink: 0; }
+
+.enq-btn-g { background: var(--green); color: #fff; padding: 11px 20px; border-radius: 9px; font-weight: 800; font-size: .84rem; transition: .2s; text-align: center; white-space: nowrap; }
+
+.enq-btn-g:hover { background: #14602f; }
+
+.enq-btn-w { background: #25d366; color: #fff; padding: 11px 20px; border-radius: 9px; font-weight: 800; font-size: .84rem; transition: .2s; display: flex; align-items: center; justify-content: center; gap: 5px; white-space: nowrap; }
+
+.enq-btn-w:hover { background: #1da855; }
+
+/* ════════════════════════════════════════════════════════════
+ * RESPONSIVE — Page-specific media queries for fees.css
+ * ════════════════════════════════════════════════════════════ */
+
+@media (max-width: 1100px) {
+  .fee-snap { display: none; }
+
+  .cost-hero-panel { grid-template-columns: 1fr; gap: 22px; }
+
+  .chp-right { text-align: left; }
+
+  .chp-btns { justify-content: flex-start; }
+
+  .cmp-row .cmp-cell:last-child, .cmp-header .cmp-cell:last-child { display: none; }
+
+  .pay-grid { grid-template-columns: 1fr; }
+
+  .enq-strip { grid-template-columns: 1fr; }
+
+  .enq-btns { flex-direction: row; }
+}
+
+@media (max-width: 768px) {
+  .cost-hero-panel { padding: 22px; border-radius: 14px; }
+
+  .chp-num { font-size: 2.4rem; }
+
+  .chp-num span { font-size: 1.6rem; }
+
+  .ft-row { grid-template-columns: 1.8fr 1fr 1fr; }
+
+  .ft-header { padding: 9px 16px; }
+
+  .ft-row { padding: 12px 16px; }
+
+  .ft-note { padding: 9px 16px 13px; }
+
+  .expense-tags { gap: 7px; }
+
+  .exp-tag { font-size: .78rem; padding: 7px 12px; }
+
+  .cmp-header .cmp-cell:nth-child(4), .cmp-header .cmp-cell:nth-child(5) { display: none; }
+
+  .pay-grid { grid-template-columns: 1fr; }
+
+  .enq-strip { padding: 20px 16px; border-radius: 12px; }
+
+  .enq-btns { flex-direction: column; width: 100%; }
+}
+
+
+
+/* ════════════════════════════════════════════════════════════
+ * MOBILE SAFETY OVERRIDES
+ * ════════════════════════════════════════════════════════════ */
+@media (max-width: 900px) {
+  .page-layout { grid-template-columns: 1fr !important; gap: 24px !important; }
+  .fee-grid, .cost-hero-grid, .compare-wrap { grid-template-columns: 1fr !important; }
+}
+@media (max-width: 768px) {
+  .sidebar { display: none !important; }
+  .content-block { padding: 22px 18px !important; }
+  .cb-title { font-size: 1.3rem !important; line-height: 1.25 !important; }
+  .page-hero-content h1 { font-size: 1.7rem !important; line-height: 1.2 !important; }
+  .fee-table { font-size: .85rem !important; }
+  .ft-row { padding: 10px 14px !important; }
+  .ft-label { font-size: .82rem !important; }
+  .ft-amount { font-size: .88rem !important; }
+}

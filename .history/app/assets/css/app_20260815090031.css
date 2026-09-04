@@ -1,0 +1,18 @@
+/* Medcon Edu auth styles (responsive, simple) */
+:root{
+  --bg: #F7FFFE;
+  --dark: #001F1C;
+  --primary: #274DEA;
+  --success: #50D24E;
+  --warn: #FC8C08;
+}
+*{box-sizing:border-box}
+body.mc-bg{background:var(--bg);color:var(--dark);font-family:Inter,system-ui,Arial,Helvetica,sans-serif;margin:0;padding:20px}
+.mc-container{max-width:520px;margin:40px auto;padding:28px;background:#fff;border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,.06)}
+.mc-title{font-size:20px;color:var(--dark);margin:0 0 16px}
+label{display:block;margin-bottom:12px}
+input[type=text],input[type=email],input[type=password]{width:100%;padding:10px;border:1px solid #dbe7e6;border-radius:6px}
+.mc-btn-primary{display:inline-block;background:var(--primary);color:white;padding:10px 16px;border-radius:6px;border:0;cursor:pointer}
+.mc-errors{background:#FFEFE8;border:1px solid #F5C6B4;padding:10px;margin-bottom:12px;border-radius:6px;color:#6a2b00}
+.mc-consent input{margin-right:8px}
+@media(max-width:520px){body.mc-bg{padding:12px}.mc-container{margin:20px;padding:18px}}

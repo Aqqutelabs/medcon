@@ -1,0 +1,9 @@
+/* Reusable halftone presentation layer. It is loaded only by auth pages. */
+.mc-halftone{position:absolute;inset:0;overflow:hidden;background:var(--dark)}
+.mc-halftone-source,.mc-halftone-canvas{position:absolute;inset:0;width:100%;height:100%}
+.mc-halftone-source{object-fit:cover;opacity:1;filter:saturate(.75) contrast(1.05);transition:opacity .45s ease}
+.mc-halftone-canvas{display:block;opacity:0;transition:opacity .45s ease}
+.mc-halftone.is-rendered .mc-halftone-source{opacity:0}
+.mc-halftone.is-rendered .mc-halftone-canvas{opacity:1}
+@media(max-width:900px){.mc-halftone{--halftone-mobile:1}}
+@media(prefers-reduced-motion:reduce){.mc-halftone-source,.mc-halftone-canvas{transition:none}}

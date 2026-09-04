@@ -1,0 +1,24 @@
+{
+  "name": "MedCon",
+  "short_name": "MedCon",
+  "description": "Medical education admissions guidance for African students and families.",
+  "icons": [
+    {
+      "src": "android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "start_url": "../../",
+  "scope": "../../",
+  "theme_color": "#16055D",
+  "background_color": "#F7FFFE",
+  "display": "standalone"
+}

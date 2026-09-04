@@ -1,0 +1,48 @@
+- generic [active] [ref=e1]:
+  - link "Skip to form" [ref=e2] [cursor=pointer]:
+    - /url: "#auth-form"
+  - main [ref=e3]:
+    - region "MedCon student community" [ref=e4]:
+      - generic [ref=e5]:
+        - img "Medical students learning together in class" [ref=e6]
+        - img "Medical students studying anatomy" [ref=e7]
+        - img "Doctor of Medicine students on campus" [ref=e8]
+        - img "Medical graduates celebrating their achievement" [ref=e9]
+      - link "MedCon home" [ref=e11] [cursor=pointer]:
+        - /url: ../index.php
+        - img "MedCon" [ref=e12]
+      - generic [ref=e13]:
+        - generic [ref=e14]: Your medical journey
+        - heading "Learn with purpose. Practise with confidence." [level=2] [ref=e15]
+        - paragraph [ref=e16]: Access your applications, admission documents and next steps in one secure place.
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - generic [ref=e21]: New to MedCon?
+          - link "Create account" [ref=e22] [cursor=pointer]:
+            - /url: signup.php
+        - generic [ref=e23]:
+          - generic [ref=e24]: Student portal
+          - heading "Welcome back" [level=1] [ref=e25]
+          - paragraph [ref=e26]: Sign in to continue your medical education journey.
+        - generic [ref=e27]:
+          - generic [ref=e28]:
+            - generic [ref=e29]: Email address
+            - textbox "Email address" [ref=e30]
+          - generic [ref=e31]:
+            - generic [ref=e32]: Password
+            - textbox "Password" [ref=e33]
+          - link "Forgot password?" [ref=e35] [cursor=pointer]:
+            - /url: forgot-password.php
+          - button "Sign in" [ref=e36] [cursor=pointer]:
+            - text: Sign in
+            - generic [ref=e37]: →
+      - generic [ref=e38]:
+        - generic [ref=e39]: Medical Consultants Education Nigeria Limited
+        - generic [ref=e40]:
+          - link "Privacy" [ref=e41] [cursor=pointer]:
+            - /url: ../privacy-policy.php
+          - link "Terms" [ref=e42] [cursor=pointer]:
+            - /url: ../terms.php
+          - link "Support" [ref=e43] [cursor=pointer]:
+            - /url: ../contact.php

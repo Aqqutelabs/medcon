@@ -1,0 +1,215 @@
+/* ================================================================
+ * pltcollege.com — Page-Specific CSS: academics.css
+ * Loaded only on this page via $meta['page_css_file']
+ * Combined with global.css (which loads first)
+ * ================================================================ */
+
+.prog-tabs {
+  background: #fff;
+  border-bottom: 2px solid var(--lgray);
+  position: sticky;
+  top: 72px;
+  z-index: 900;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.prog-tabs::-webkit-scrollbar { display: none; }
+
+.prog-tabs-i {
+  max-width: 1300px; margin: auto; padding: 0 24px;
+  display: flex; align-items: stretch; gap: 0; white-space: nowrap;
+}
+
+.prog-tab {
+  display: flex; align-items: center; gap: 7px;
+  padding: 14px 16px; font-size: 0.8rem; font-weight: 700;
+  color: var(--gray); border-bottom: 3px solid transparent;
+  transition: 0.2s; cursor: pointer; white-space: nowrap; flex-shrink: 0;
+}
+
+.prog-tab:hover { color: var(--navy); border-color: var(--lgray); }
+
+.prog-tab.active { color: var(--green); border-color: var(--green); }
+
+.hero-img-block {
+  border-radius: 16px; overflow: hidden; height: 260px;
+  margin-bottom: 26px; position: relative;
+}
+
+.hero-img-block img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+.hero-img-block .overlay-lbl {
+  position: absolute; bottom: 14px; left: 14px;
+  background: rgba(6,15,46,0.85); color: #fff;
+  font-size: 0.68rem; font-weight: 800;
+  padding: 4px 10px; border-radius: 10px;
+  text-transform: uppercase; letter-spacing: 0.06em;
+}
+
+.dept-grid {
+  display: grid; grid-template-columns: repeat(4, 1fr);
+  gap: 12px; margin-top: 24px;
+}
+
+.dept-card {
+  background: linear-gradient(135deg, rgba(10,31,92,0.05), rgba(26,122,60,0.05));
+  border: 1.5px solid var(--lgray); border-radius: 12px;
+  padding: 16px 14px; text-align: center; transition: 0.2s;
+}
+
+.dept-card:hover {
+  background: var(--navy); border-color: var(--navy);
+  transform: translateY(-2px);
+}
+
+.dept-card:hover .dept-ico { filter: brightness(10); }
+
+.dept-card:hover .dept-name { color: #fff; }
+
+.dept-ico { font-size: 1.5rem; margin-bottom: 6px; }
+
+.dept-name { font-size: 0.8rem; font-weight: 800; color: var(--navy); }
+
+.subject-cloud {
+  display: flex; flex-wrap: wrap; gap: 10px; margin-top: 22px;
+}
+
+.sub-pill {
+  background: var(--off); border: 1.5px solid var(--lgray);
+  padding: 8px 16px; border-radius: 30px;
+  font-size: 0.83rem; font-weight: 700; color: var(--navy);
+  transition: 0.2s; display: flex; align-items: center; gap: 7px;
+}
+
+.sub-pill:hover { background: var(--navy); color: #fff; border-color: var(--navy); }
+
+.sub-pill span { font-size: 1rem; }
+
+.year-timeline {
+  margin-top: 28px; display: flex; flex-direction: column; gap: 0;
+  position: relative; padding-left: 32px;
+}
+
+.year-timeline::before {
+  content: ''; position: absolute; left: 11px; top: 0; bottom: 0;
+  width: 2px; background: var(--lgray); border-radius: 2px;
+}
+
+.yt-item {
+  position: relative; padding: 0 0 28px 22px;
+}
+
+.yt-item:last-child { padding-bottom: 0; }
+
+.yt-dot {
+  position: absolute; left: -21px; top: 4px;
+  width: 20px; height: 20px; border-radius: 50%;
+  background: var(--green); border: 3px solid #fff;
+  box-shadow: 0 0 0 2px var(--green);
+  z-index: 1; display: flex; align-items: center; justify-content: center;
+  font-size: 0.6rem; color: #fff; font-weight: 800;
+}
+
+.yt-year {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 0.85rem; font-weight: 700; color: var(--green);
+  margin-bottom: 5px; text-transform: uppercase; letter-spacing: 0.08em;
+}
+
+.yt-title { font-size: 0.96rem; font-weight: 800; color: var(--navy); margin-bottom: 5px; }
+
+.yt-desc { font-size: 0.86rem; color: var(--gray); line-height: 1.6; }
+
+.assess-grid {
+  display: grid; grid-template-columns: repeat(3, 1fr);
+  gap: 14px; margin-top: 22px;
+}
+
+.assess-card {
+  background: #fff; border: 1px solid var(--lgray);
+  border-radius: 13px; padding: 20px;
+  display: flex; gap: 13px; align-items: flex-start; transition: 0.2s;
+}
+
+.assess-card:hover { box-shadow: var(--sh); transform: translateY(-2px); }
+
+.assess-ico {
+  width: 42px; height: 42px; border-radius: 10px;
+  background: linear-gradient(135deg, rgba(10,31,92,0.08), rgba(26,122,60,0.08));
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.25rem; flex-shrink: 0;
+}
+
+.assess-card h4 { font-size: 0.87rem; font-weight: 800; color: var(--navy); margin-bottom: 3px; }
+
+.assess-card p { font-size: 0.78rem; color: var(--gray); line-height: 1.5; }
+
+.dc-icon { font-size: 2.5rem; flex-shrink: 0; }
+
+.stats-row {
+  display: grid; grid-template-columns: repeat(4, 1fr);
+  gap: 16px; margin-top: 28px;
+}
+
+/* ════════════════════════════════════════════════════════════
+ * RESPONSIVE — Page-specific media queries for academics.css
+ * ════════════════════════════════════════════════════════════ */
+
+@media (max-width: 1100px) {
+  .prog-tabs { top: 62px; }
+
+  .dept-grid { grid-template-columns: repeat(2, 1fr); }
+
+  .assess-grid { grid-template-columns: repeat(2, 1fr); }
+
+  .stats-row { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 768px) {
+  .prog-tabs { top: 60px; }
+
+  .prog-tabs-i { padding: 0 12px; }
+
+  .prog-tab { padding: 12px 12px; font-size: 0.74rem; gap: 5px; }
+
+  .hero-img-block { height: 200px; border-radius: 12px; }
+
+  .dept-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+
+  .dept-card { padding: 14px 10px; }
+
+  .dept-ico { font-size: 1.3rem; }
+
+  .dept-name { font-size: 0.75rem; }
+
+  .subject-cloud { gap: 7px; }
+
+  .sub-pill { font-size: 0.78rem; padding: 7px 13px; }
+
+  .assess-grid { grid-template-columns: 1fr; gap: 10px; }
+
+  .stats-row { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+}
+
+@media (max-width: 420px) {
+  .dept-grid { grid-template-columns: repeat(2, 1fr); }
+
+  .stats-row { grid-template-columns: 1fr 1fr; }
+}
+
+
+/* ════════════════════════════════════════════════════════════
+ * MOBILE SAFETY OVERRIDES
+ * ════════════════════════════════════════════════════════════ */
+@media (max-width: 900px) {
+  .page-layout { grid-template-columns: 1fr !important; gap: 24px !important; }
+  .dept-grid, .stats-row, .prog-tabs { grid-template-columns: 1fr !important; }
+}
+@media (max-width: 768px) {
+  .sidebar { display: none !important; }
+  .content-block { padding: 22px 18px !important; }
+  .cb-title { font-size: 1.3rem !important; }
+  .page-hero-content h1 { font-size: 1.7rem !important; line-height: 1.2 !important; }
+}

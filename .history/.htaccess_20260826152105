@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^a/([A-Za-z0-9-]+)/?$ referral.php?name=$1 [L,QSA]

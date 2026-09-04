@@ -1,0 +1,252 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sat, 15 Aug 2026 16:39:05 at https://tmtc.edu.ph/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://tmtc.edu.ph/ -O1 "C:\My Web Sites\scime" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:39:48	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/pages/3845 (from https://tmtc.edu.ph/)
+16:39:48	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from https://tmtc.edu.ph/)
+16:41:21	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/pages/3860 (from https://tmtc.edu.ph/academics/basic-education/)
+16:41:21	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=3860
+16:41:21	Warning: 	File has moved from https://tmtc.edu.ph/?p=3860 to https://tmtc.edu.ph/academics/basic-education/
+16:41:37	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/pages/3869 (from https://tmtc.edu.ph/academics/bachelor-of-science-in-medical-laboratory-science/)
+16:41:37	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=3869
+16:41:37	Warning: 	File has moved from https://tmtc.edu.ph/?p=3869 to https://tmtc.edu.ph/academics/bachelor-of-science-in-medical-laboratory-science/
+16:41:38	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/pages/3880 (from https://tmtc.edu.ph/academics/bachelor-of-science-in-nursing/)
+16:41:38	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=3880
+16:41:38	Warning: 	File has moved from https://tmtc.edu.ph/?p=3880 to https://tmtc.edu.ph/academics/bachelor-of-science-in-nursing/
+16:41:38	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/pages/3889 (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/)
+16:41:38	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=3889
+16:41:38	Warning: 	File has moved from https://tmtc.edu.ph/?p=3889 to https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/
+16:43:13	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/pages/3897 (from https://tmtc.edu.ph/academics/school-of-medicine/)
+16:43:13	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=3897
+16:43:13	Warning: 	File has moved from https://tmtc.edu.ph/?p=3897 to https://tmtc.edu.ph/academics/school-of-medicine/
+16:43:29	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/pages/3905 (from https://tmtc.edu.ph/admissions/)
+16:43:29	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=3905
+16:43:29	Warning: 	File has moved from https://tmtc.edu.ph/?p=3905 to https://tmtc.edu.ph/admissions/
+16:43:29	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/pages/3929 (from https://tmtc.edu.ph/about/about-tmtcs/)
+16:43:29	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=3929
+16:43:29	Warning: 	File has moved from https://tmtc.edu.ph/?p=3929 to https://tmtc.edu.ph/about/about-tmtcs/
+16:43:30	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/pages/3937 (from https://tmtc.edu.ph/about/leadership/)
+16:43:30	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=3937
+16:43:30	Warning: 	File has moved from https://tmtc.edu.ph/?p=3937 to https://tmtc.edu.ph/about/leadership/
+16:43:30	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/pages/3942 (from https://tmtc.edu.ph/about/partners/)
+16:43:30	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=3942
+16:43:30	Warning: 	File has moved from https://tmtc.edu.ph/?p=3942 to https://tmtc.edu.ph/about/partners/
+16:43:30	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/pages/3961 (from https://tmtc.edu.ph/about/testimonials/)
+16:43:30	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=3961
+16:43:30	Warning: 	File has moved from https://tmtc.edu.ph/?p=3961 to https://tmtc.edu.ph/about/testimonials/
+16:43:59	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/pages/3970 (from https://tmtc.edu.ph/online-library/)
+16:43:59	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=3970
+16:43:59	Warning: 	File has moved from https://tmtc.edu.ph/?p=3970 to https://tmtc.edu.ph/online-library/
+16:43:59	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/pages/3976 (from https://tmtc.edu.ph/campus-life/life-at-tmtcs/)
+16:43:59	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=3976
+16:43:59	Warning: 	File has moved from https://tmtc.edu.ph/?p=3976 to https://tmtc.edu.ph/campus-life/life-at-tmtcs/
+16:43:59	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/pages/3995 (from https://tmtc.edu.ph/campus-life/student-leaders/)
+16:43:59	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=3995
+16:43:59	Warning: 	File has moved from https://tmtc.edu.ph/?p=3995 to https://tmtc.edu.ph/campus-life/student-leaders/
+16:44:00	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/pages/4000 (from https://tmtc.edu.ph/contact-us/)
+16:44:00	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=4000
+16:44:00	Warning: 	File has moved from https://tmtc.edu.ph/?p=4000 to https://tmtc.edu.ph/contact-us/
+16:44:00	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/pages/4029 (from https://tmtc.edu.ph/academics/basic-education/preschool-and-elementary-program/)
+16:44:00	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=4029
+16:44:00	Warning: 	File has moved from https://tmtc.edu.ph/?p=4029 to https://tmtc.edu.ph/academics/basic-education/preschool-and-elementary-program/
+16:44:00	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/pages/4035 (from https://tmtc.edu.ph/academics/basic-education/junior-high-school/)
+16:44:00	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=4035
+16:44:00	Warning: 	File has moved from https://tmtc.edu.ph/?p=4035 to https://tmtc.edu.ph/academics/basic-education/junior-high-school/
+16:44:00	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/pages/4042 (from https://tmtc.edu.ph/academics/basic-education/senior-high-school/)
+16:44:00	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=4042
+16:44:00	Warning: 	File has moved from https://tmtc.edu.ph/?p=4042 to https://tmtc.edu.ph/academics/basic-education/senior-high-school/
+16:44:00	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/pages/4008 (from https://tmtc.edu.ph/academics/basic-education/about-us/)
+16:44:00	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=4008
+16:44:00	Warning: 	File has moved from https://tmtc.edu.ph/?p=4008 to https://tmtc.edu.ph/academics/basic-education/about-us/
+16:44:00	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/pages/4014 (from https://tmtc.edu.ph/academics/basic-education/admissions/)
+16:44:00	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=4014
+16:44:00	Warning: 	File has moved from https://tmtc.edu.ph/?p=4014 to https://tmtc.edu.ph/academics/basic-education/admissions/
+16:44:01	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/pages/4019 (from https://tmtc.edu.ph/academics/basic-education/international-baccalaureate/)
+16:44:01	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=4019
+16:44:01	Warning: 	File has moved from https://tmtc.edu.ph/?p=4019 to https://tmtc.edu.ph/academics/basic-education/international-baccalaureate/
+16:44:01	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/pages/4050 (from https://tmtc.edu.ph/academics/basic-education/special-programs/)
+16:44:01	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=4050
+16:44:01	Warning: 	File has moved from https://tmtc.edu.ph/?p=4050 to https://tmtc.edu.ph/academics/basic-education/special-programs/
+16:44:01	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/pages/4063 (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/about-us/)
+16:44:01	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=4063
+16:44:01	Warning: 	File has moved from https://tmtc.edu.ph/?p=4063 to https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/about-us/
+16:44:01	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/pages/4068 (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/admissions/)
+16:44:01	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=4068
+16:44:01	Warning: 	File has moved from https://tmtc.edu.ph/?p=4068 to https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/admissions/
+16:44:01	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/pages/4075 (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/)
+16:44:01	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=4075
+16:44:01	Warning: 	File has moved from https://tmtc.edu.ph/?p=4075 to https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/
+16:44:01	Error: 	"Not Found" (404) at link https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/https:/tmtc.edu.ph/wp-content/uploads/2026/05/bnw4.webp (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/)
+16:44:01	Error: 	"Not Found" (404) at link https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/https:/tmtc.edu.ph/wp-content/uploads/2026/05/bnw2.webp (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/)
+16:44:01	Error: 	"Not Found" (404) at link https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/https:/tmtc.edu.ph/wp-content/uploads/2026/05/bnw5.webp (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/)
+16:44:01	Error: 	"Not Found" (404) at link https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/https:/tmtc.edu.ph/wp-content/uploads/2026/05/bnw3.webp (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/)
+16:44:01	Error: 	"Not Found" (404) at link https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/https:/tmtc.edu.ph/wp-content/uploads/2026/05/bnw6.webp (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/)
+16:44:01	Error: 	"Not Found" (404) at link https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/https:/tmtc.edu.ph/wp-content/uploads/2026/05/bnw1.webp (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/)
+16:44:01	Error: 	"Not Found" (404) at link https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/https:/tmtc.edu.ph/wp-content/uploads/2026/05/ojtc4.webp (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/)
+16:44:01	Error: 	"Not Found" (404) at link https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/https:/tmtc.edu.ph/wp-content/uploads/2026/05/ojtc5.webp (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/)
+16:44:01	Error: 	"Not Found" (404) at link https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/https:/tmtc.edu.ph/wp-content/uploads/2026/05/ojtc3.webp (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/)
+16:44:01	Error: 	"Not Found" (404) at link https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/https:/tmtc.edu.ph/wp-content/uploads/2026/05/ojtc2.webp (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/)
+16:44:01	Error: 	"Not Found" (404) at link https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/https:/tmtc.edu.ph/wp-content/uploads/2026/05/ojtc1.webp (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/)
+16:44:01	Error: 	"Not Found" (404) at link https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/https:/tmtc.edu.ph/wp-content/uploads/2026/05/hallo5.webp (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/)
+16:44:01	Error: 	"Not Found" (404) at link https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/https:/tmtc.edu.ph/wp-content/uploads/2026/05/hallo4.webp (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/)
+16:44:01	Error: 	"Not Found" (404) at link https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/https:/tmtc.edu.ph/wp-content/uploads/2026/05/hallo3.webp (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/)
+16:44:01	Error: 	"Not Found" (404) at link https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/https:/tmtc.edu.ph/wp-content/uploads/2026/05/hallo1.webp (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/)
+16:44:01	Error: 	"Not Found" (404) at link https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/https:/tmtc.edu.ph/wp-content/uploads/2026/05/hallo2.webp (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/)
+16:44:01	Error: 	"Not Found" (404) at link https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/https:/tmtc.edu.ph/wp-content/uploads/2026/05/designative8.webp (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/)
+16:44:01	Error: 	"Not Found" (404) at link https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/https:/tmtc.edu.ph/wp-content/uploads/2026/05/designative7.webp (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/)
+16:44:02	Error: 	"Not Found" (404) at link https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/https:/tmtc.edu.ph/wp-content/uploads/2026/05/designative6.webp (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/)
+16:44:02	Error: 	"Not Found" (404) at link https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/https:/tmtc.edu.ph/wp-content/uploads/2026/05/designative5.webp (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/)
+16:44:02	Error: 	"Not Found" (404) at link https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/https:/tmtc.edu.ph/wp-content/uploads/2026/05/designative4.webp (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/)
+16:44:02	Error: 	"Not Found" (404) at link https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/https:/tmtc.edu.ph/wp-content/uploads/2026/05/designative3.webp (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/)
+16:44:02	Error: 	"Not Found" (404) at link https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/https:/tmtc.edu.ph/wp-content/uploads/2026/05/designative2.webp (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/)
+16:44:02	Error: 	"Not Found" (404) at link https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/https:/tmtc.edu.ph/wp-content/uploads/2026/05/designative1.webp (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/)
+16:44:02	Error: 	"Not Found" (404) at link https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/https:/tmtc.edu.ph/wp-content/uploads/2026/05/et5.webp (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/)
+16:44:02	Error: 	"Not Found" (404) at link https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/https:/tmtc.edu.ph/wp-content/uploads/2026/05/et4.webp (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/)
+16:44:02	Error: 	"Not Found" (404) at link https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/https:/tmtc.edu.ph/wp-content/uploads/2026/05/et3.webp (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/)
+16:44:02	Error: 	"Not Found" (404) at link https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/https:/tmtc.edu.ph/wp-content/uploads/2026/05/et1.webp (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/)
+16:44:03	Error: 	"Not Found" (404) at link https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/https:/tmtc.edu.ph/wp-content/uploads/2026/05/et2.webp (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/)
+16:44:03	Error: 	"Not Found" (404) at link https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/https:/tmtc.edu.ph/wp-content/uploads/2026/05/nam9.webp (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/)
+16:44:03	Error: 	"Not Found" (404) at link https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/https:/tmtc.edu.ph/wp-content/uploads/2026/05/nam8.webp (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/)
+16:44:03	Error: 	"Not Found" (404) at link https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/https:/tmtc.edu.ph/wp-content/uploads/2026/05/nam7.webp (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/)
+16:44:03	Error: 	"Not Found" (404) at link https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/https:/tmtc.edu.ph/wp-content/uploads/2026/05/nam6.webp (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/)
+16:44:03	Error: 	"Not Found" (404) at link https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/https:/tmtc.edu.ph/wp-content/uploads/2026/05/nam5.webp (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/)
+16:44:03	Error: 	"Not Found" (404) at link https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/https:/tmtc.edu.ph/wp-content/uploads/2026/05/nam4.webp (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/)
+16:44:03	Error: 	"Not Found" (404) at link https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/https:/tmtc.edu.ph/wp-content/uploads/2026/05/nam3.webp (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/)
+16:44:03	Error: 	"Not Found" (404) at link https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/https:/tmtc.edu.ph/wp-content/uploads/2026/05/nam2.webp (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/)
+16:44:03	Error: 	"Not Found" (404) at link https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/https:/tmtc.edu.ph/wp-content/uploads/2026/05/nam1.webp (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/)
+16:44:03	Error: 	"Not Found" (404) at link https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/https:/tmtc.edu.ph/wp-content/uploads/2026/05/clf12.webp (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/)
+16:44:03	Error: 	"Not Found" (404) at link https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/https:/tmtc.edu.ph/wp-content/uploads/2026/05/clf11.webp (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/)
+16:44:03	Error: 	"Not Found" (404) at link https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/https:/tmtc.edu.ph/wp-content/uploads/2026/05/clf10.webp (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/)
+16:44:03	Error: 	"Not Found" (404) at link https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/https:/tmtc.edu.ph/wp-content/uploads/2026/05/clf9.webp (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/)
+16:44:03	Error: 	"Not Found" (404) at link https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/https:/tmtc.edu.ph/wp-content/uploads/2026/05/clf8.webp (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/)
+16:44:03	Error: 	"Not Found" (404) at link https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/https:/tmtc.edu.ph/wp-content/uploads/2026/05/clf7.webp (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/)
+16:44:03	Error: 	"Not Found" (404) at link https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/https:/tmtc.edu.ph/wp-content/uploads/2026/05/clf6.webp (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/)
+16:44:03	Error: 	"Not Found" (404) at link https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/https:/tmtc.edu.ph/wp-content/uploads/2026/05/clf4.webp (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/)
+16:44:03	Error: 	"Not Found" (404) at link https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/https:/tmtc.edu.ph/wp-content/uploads/2026/05/clf3.webp (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/)
+16:44:03	Error: 	"Not Found" (404) at link https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/https:/tmtc.edu.ph/wp-content/uploads/2026/05/clf2.webp (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/)
+16:44:03	Error: 	"Not Found" (404) at link https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/https:/tmtc.edu.ph/wp-content/uploads/2026/05/clf1.webp (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/multimedia-arts-society/)
+16:44:04	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/pages/4129 (from https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/gallery/)
+16:44:04	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=4129
+16:44:04	Warning: 	File has moved from https://tmtc.edu.ph/?p=4129 to https://tmtc.edu.ph/academics/school-of-computing-and-media-arts/gallery/
+16:44:04	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/pages/4143 (from https://tmtc.edu.ph/academics/school-of-medicine/about-us/)
+16:44:04	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=4143
+16:44:04	Warning: 	File has moved from https://tmtc.edu.ph/?p=4143 to https://tmtc.edu.ph/academics/school-of-medicine/about-us/
+16:44:04	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/pages/4153 (from https://tmtc.edu.ph/academics/school-of-medicine/admissions/)
+16:44:04	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=4153
+16:44:04	Warning: 	File has moved from https://tmtc.edu.ph/?p=4153 to https://tmtc.edu.ph/academics/school-of-medicine/admissions/
+16:44:04	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/pages/4254 (from https://tmtc.edu.ph/academics/school-of-medicine/academics/)
+16:44:04	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=4254
+16:44:04	Warning: 	File has moved from https://tmtc.edu.ph/?p=4254 to https://tmtc.edu.ph/academics/school-of-medicine/academics/
+16:44:04	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/pages/4159 (from https://tmtc.edu.ph/academics/school-of-medicine/partner-hospitals/)
+16:44:04	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=4159
+16:44:04	Warning: 	File has moved from https://tmtc.edu.ph/?p=4159 to https://tmtc.edu.ph/academics/school-of-medicine/partner-hospitals/
+16:44:04	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/pages/4168 (from https://tmtc.edu.ph/academics/school-of-medicine/community/)
+16:44:04	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=4168
+16:44:04	Warning: 	File has moved from https://tmtc.edu.ph/?p=4168 to https://tmtc.edu.ph/academics/school-of-medicine/community/
+16:44:32	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/posts/5500 (from https://tmtc.edu.ph/tmtcs-school-of-medicine-appoints-sankara-consultancy-as-official-international-admissions-partner/)
+16:44:32	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=5500
+16:44:32	Warning: 	File has moved from https://tmtc.edu.ph/?p=5500 to https://tmtc.edu.ph/tmtcs-school-of-medicine-appoints-sankara-consultancy-as-official-international-admissions-partner/
+16:44:32	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/posts/5314 (from https://tmtc.edu.ph/why-study-in-subic-a-place-where-learning-and-opportunity-meet/)
+16:44:32	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=5314
+16:44:32	Warning: 	File has moved from https://tmtc.edu.ph/?p=5314 to https://tmtc.edu.ph/why-study-in-subic-a-place-where-learning-and-opportunity-meet/
+16:44:32	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/posts/3412 (from https://tmtc.edu.ph/tmtcs-ties-up-with-canadian-school/)
+16:44:32	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=3412
+16:44:32	Warning: 	File has moved from https://tmtc.edu.ph/?p=3412 to https://tmtc.edu.ph/tmtcs-ties-up-with-canadian-school/
+16:44:32	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/posts/3409 (from https://tmtc.edu.ph/tmtcs-forges-partnership-with-canadian-school/)
+16:44:32	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=3409
+16:44:32	Warning: 	File has moved from https://tmtc.edu.ph/?p=3409 to https://tmtc.edu.ph/tmtcs-forges-partnership-with-canadian-school/
+16:44:32	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/posts/3406 (from https://tmtc.edu.ph/theater-play-in-olongapo-a-success/)
+16:44:32	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=3406
+16:44:32	Warning: 	File has moved from https://tmtc.edu.ph/?p=3406 to https://tmtc.edu.ph/theater-play-in-olongapo-a-success/
+16:44:32	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/posts/3403 (from https://tmtc.edu.ph/tmtcs-fdcp-roll-out-filmmaking-workshop-series/)
+16:44:32	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=3403
+16:44:32	Warning: 	File has moved from https://tmtc.edu.ph/?p=3403 to https://tmtc.edu.ph/tmtcs-fdcp-roll-out-filmmaking-workshop-series/
+16:44:59	Error: 	"Not Found" (404) at link https://tmtc.edu.ph/news/page/7/ (from https://tmtc.edu.ph/news/page/6/)
+16:44:59	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/posts/3400 (from https://tmtc.edu.ph/tmtcs-fdcp-hold-filmmaking-workshop/)
+16:44:59	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=3400
+16:44:59	Warning: 	File has moved from https://tmtc.edu.ph/?p=3400 to https://tmtc.edu.ph/tmtcs-fdcp-hold-filmmaking-workshop/
+16:44:59	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/posts/3397 (from https://tmtc.edu.ph/tmtcs-holds-environmental-forum/)
+16:44:59	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=3397
+16:44:59	Warning: 	File has moved from https://tmtc.edu.ph/?p=3397 to https://tmtc.edu.ph/tmtcs-holds-environmental-forum/
+16:44:59	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/posts/3394 (from https://tmtc.edu.ph/top-filmmakers-speak-at-fdcp-tmtcs-workshop/)
+16:44:59	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=3394
+16:44:59	Warning: 	File has moved from https://tmtc.edu.ph/?p=3394 to https://tmtc.edu.ph/top-filmmakers-speak-at-fdcp-tmtcs-workshop/
+16:44:59	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/posts/3391 (from https://tmtc.edu.ph/tmtc-subic-staffer-reaps-honors-for-short-film/)
+16:44:59	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=3391
+16:44:59	Warning: 	File has moved from https://tmtc.edu.ph/?p=3391 to https://tmtc.edu.ph/tmtc-subic-staffer-reaps-honors-for-short-film/
+16:44:59	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/posts/3388 (from https://tmtc.edu.ph/tmtc-cammp-chairman-cited-at-gapo-awards-2022/)
+16:44:59	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=3388
+16:44:59	Warning: 	File has moved from https://tmtc.edu.ph/?p=3388 to https://tmtc.edu.ph/tmtc-cammp-chairman-cited-at-gapo-awards-2022/
+16:44:59	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/posts/3385 (from https://tmtc.edu.ph/tmtcs-department-head-captures-2-sprint-golds/)
+16:44:59	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=3385
+16:44:59	Warning: 	File has moved from https://tmtc.edu.ph/?p=3385 to https://tmtc.edu.ph/tmtcs-department-head-captures-2-sprint-golds/
+16:45:23	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/posts/3382 (from https://tmtc.edu.ph/tmtcs-a-big-winner-at-film-festival/)
+16:45:23	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=3382
+16:45:23	Warning: 	File has moved from https://tmtc.edu.ph/?p=3382 to https://tmtc.edu.ph/tmtcs-a-big-winner-at-film-festival/
+16:45:23	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/posts/3377 (from https://tmtc.edu.ph/major-play-to-be-staged-in-olongapo/)
+16:45:23	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=3377
+16:45:23	Warning: 	File has moved from https://tmtc.edu.ph/?p=3377 to https://tmtc.edu.ph/major-play-to-be-staged-in-olongapo/
+16:45:23	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/posts/3201 (from https://tmtc.edu.ph/tmtcs-visits-ust-ipea-for-benchmarking-meeting-2/)
+16:45:23	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=3201
+16:45:23	Warning: 	File has moved from https://tmtc.edu.ph/?p=3201 to https://tmtc.edu.ph/tmtcs-visits-ust-ipea-for-benchmarking-meeting-2/
+16:45:23	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/posts/2838 (from https://tmtc.edu.ph/the-manila-times-college-progresses-as-it-becomes-an-international-baccalaureate-candidate-school/)
+16:45:23	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=2838
+16:45:23	Warning: 	File has moved from https://tmtc.edu.ph/?p=2838 to https://tmtc.edu.ph/the-manila-times-college-progresses-as-it-becomes-an-international-baccalaureate-candidate-school/
+16:45:23	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/posts/2782 (from https://tmtc.edu.ph/tmtcs-official-campus-paper-is-now-online/)
+16:45:23	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=2782
+16:45:23	Warning: 	File has moved from https://tmtc.edu.ph/?p=2782 to https://tmtc.edu.ph/tmtcs-official-campus-paper-is-now-online/
+16:45:23	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/posts/2465 (from https://tmtc.edu.ph/govt-eyes-private-labs-for-ofw-covid-tests/)
+16:45:23	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=2465
+16:45:23	Warning: 	File has moved from https://tmtc.edu.ph/?p=2465 to https://tmtc.edu.ph/govt-eyes-private-labs-for-ofw-covid-tests/
+16:45:43	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/posts/1 (from https://tmtc.edu.ph/journplusenrolment/)
+16:45:43	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=1
+16:45:43	Warning: 	File has moved from https://tmtc.edu.ph/?p=1 to https://tmtc.edu.ph/journplusenrolment/
+16:45:43	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/posts/249 (from https://tmtc.edu.ph/jci58thinduction/)
+16:45:43	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=249
+16:45:43	Warning: 	File has moved from https://tmtc.edu.ph/?p=249 to https://tmtc.edu.ph/jci58thinduction/
+16:45:43	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/posts/1640 (from https://tmtc.edu.ph/royal-stallions-dominate-43rd-cnlcsca-swim-series/)
+16:45:43	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=1640
+16:45:43	Warning: 	File has moved from https://tmtc.edu.ph/?p=1640 to https://tmtc.edu.ph/royal-stallions-dominate-43rd-cnlcsca-swim-series/
+16:45:43	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/posts/2461 (from https://tmtc.edu.ph/dr-bing-milla-named-founding-dean/)
+16:45:43	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=2461
+16:45:43	Warning: 	File has moved from https://tmtc.edu.ph/?p=2461 to https://tmtc.edu.ph/dr-bing-milla-named-founding-dean/
+16:45:43	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/posts/1776 (from https://tmtc.edu.ph/we-are-proud-of-you-james/)
+16:45:43	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=1776
+16:45:43	Warning: 	File has moved from https://tmtc.edu.ph/?p=1776 to https://tmtc.edu.ph/we-are-proud-of-you-james/
+16:45:43	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/posts/1779 (from https://tmtc.edu.ph/covid-19updates/)
+16:45:43	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=1779
+16:45:43	Warning: 	File has moved from https://tmtc.edu.ph/?p=1779 to https://tmtc.edu.ph/covid-19updates/
+16:45:43	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/posts/1724 (from https://tmtc.edu.ph/online-enrolment/)
+16:45:43	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=1724
+16:45:43	Warning: 	File has moved from https://tmtc.edu.ph/?p=1724 to https://tmtc.edu.ph/online-enrolment/
+16:45:43	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/posts/1701 (from https://tmtc.edu.ph/help-restore-trust-in-media-campus-journalists-urged/)
+16:45:43	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=1701
+16:45:43	Warning: 	File has moved from https://tmtc.edu.ph/?p=1701 to https://tmtc.edu.ph/help-restore-trust-in-media-campus-journalists-urged/
+16:45:43	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/posts/1673 (from https://tmtc.edu.ph/tmtcs-awardee-bags-ateneo-de-manila-scholarship/)
+16:45:43	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=1673
+16:45:43	Warning: 	File has moved from https://tmtc.edu.ph/?p=1673 to https://tmtc.edu.ph/tmtcs-awardee-bags-ateneo-de-manila-scholarship/
+16:45:43	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/posts/1618 (from https://tmtc.edu.ph/the-royal-stallions-swim-team-2019/)
+16:45:43	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=1618
+16:45:43	Warning: 	File has moved from https://tmtc.edu.ph/?p=1618 to https://tmtc.edu.ph/the-royal-stallions-swim-team-2019/
+16:45:43	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/posts/1570 (from https://tmtc.edu.ph/5th-commencement-exercises/)
+16:45:43	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=1570
+16:45:43	Warning: 	File has moved from https://tmtc.edu.ph/?p=1570 to https://tmtc.edu.ph/5th-commencement-exercises/
+16:45:43	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/posts/1553 (from https://tmtc.edu.ph/2nd-senior-high-school-graduation/)
+16:45:43	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=1553
+16:45:43	Warning: 	File has moved from https://tmtc.edu.ph/?p=1553 to https://tmtc.edu.ph/2nd-senior-high-school-graduation/
+16:45:43	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/posts/1529 (from https://tmtc.edu.ph/tmtcs-helps-deploy-nurses-to-saudia-arabia/)
+16:45:43	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=1529
+16:45:43	Warning: 	File has moved from https://tmtc.edu.ph/?p=1529 to https://tmtc.edu.ph/tmtcs-helps-deploy-nurses-to-saudia-arabia/
+16:45:43	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/posts/1492 (from https://tmtc.edu.ph/tmtcs-music-recital-2019/)
+16:45:43	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=1492
+16:45:43	Warning: 	File has moved from https://tmtc.edu.ph/?p=1492 to https://tmtc.edu.ph/tmtcs-music-recital-2019/
+16:45:43	Error: 	"Unauthorized" (401) at link https://tmtc.edu.ph/wp-json/wp/v2/posts/1342 (from https://tmtc.edu.ph/grand-enrollment-2019/)
+16:45:44	Warning: 	Moved Permanently for https://tmtc.edu.ph/?p=1342
+16:45:44	Warning: 	File has moved from https://tmtc.edu.ph/?p=1342 to https://tmtc.edu.ph/grand-enrollment-2019/
+
+HTTrack Website Copier/3.49-2 mirror complete in 6 minutes 39 seconds : 693 links scanned, 514 files written (40173463 bytes overall) [34963668 bytes received at 87628 bytes/sec], 12594797 bytes transferred using HTTP compression in 430 files, ratio 19%, 16.1 requests per connection
+(115 errors, 126 warnings, 0 messages)

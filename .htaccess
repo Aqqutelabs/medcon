@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule ^\.env(?:\.|$) - [F,L]
+RewriteRule ^accreditation/?$ accreditation.php [L,QSA]
+RewriteRule ^a/([A-Za-z0-9-]+)/?$ referral.php?name=$1 [L,QSA]
