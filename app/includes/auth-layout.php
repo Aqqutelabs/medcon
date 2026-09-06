@@ -12,18 +12,10 @@ function auth_page_start(string $title, string $eyebrow, string $headline, strin
 ?>
 <!doctype html>
 <html lang="en">
-<head>
+<head><?php require_once dirname(__DIR__, 2) . '/includes/analytics.php'; ?>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="#16055D">
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FZ8QPG3B9T"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-FZ8QPG3B9T');
-    </script>
     <title><?= esc($title) ?> | Medcon</title>
     <link rel="icon" href="../img/favicon/favicon.ico" sizes="any">
     <link rel="stylesheet" href="assets/css/app.css">

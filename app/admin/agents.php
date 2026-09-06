@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 $agents = $pdo->query('SELECT a.*,u.first_name,u.last_name,u.email,u.phone FROM agents a JOIN users u ON u.id=a.user_id ORDER BY a.created_at DESC')->fetchAll();
 ?>
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Agents | Medcon Admin</title><link rel="stylesheet" href="<?= esc(app_url('assets/css/app.css')) ?>"></head>
+<!doctype html><html lang="en"><head><?php require_once dirname(__DIR__, 2) . '/includes/analytics.php'; ?><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Agents | Medcon Admin</title><link rel="stylesheet" href="<?= esc(app_url('assets/css/app.css')) ?>"></head>
 <body class="medcon-app mc-role-body"><?php admin_portal_header($user, 'agents'); ?>
 <main class="mc-role-main"><div class="mc-portal-heading"><div><span class="mc-kicker">Partnership operations</span><h1>Agent applications</h1><p>Approve agents before they can enter the portal or receive referrals.</p></div></div>
 <?php if($errors): ?><div class="mc-errors" role="alert"><?php foreach($errors as $error): ?><div><?= esc($error) ?></div><?php endforeach; ?></div><?php endif; ?>

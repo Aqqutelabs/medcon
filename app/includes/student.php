@@ -39,8 +39,7 @@ function student_portal_start(string $title, string $active, array $student): vo
     $unreadStmt->execute([(int)$student['user_id']]);
     $unreadCount = (int)$unreadStmt->fetchColumn();
     ?>
-    <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-    <!-- Google tag (gtag.js) --><script async src="https://www.googletagmanager.com/gtag/js?id=G-FZ8QPG3B9T"></script><script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-FZ8QPG3B9T');</script>
+    <!doctype html><html lang="en"><head><?php require_once dirname(__DIR__, 2) . '/includes/analytics.php'; ?><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
     <title><?= esc($title) ?> | Medcon Student Portal</title><link rel="stylesheet" href="<?= esc(app_url('assets/css/app.css')) ?>"></head>
     <body class="medcon-app mc-portal-body"><a class="mc-skip" href="#main-content">Skip to content</a>
     <div class="mc-portal-shell">
