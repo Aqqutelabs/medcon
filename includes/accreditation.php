@@ -14,6 +14,8 @@ function accreditation_documents(): array {
             'stage' => '02', 'label' => 'Institutional Authorization', 'status' => 'Authorized',
             'title' => 'Authorized to Support PLTCI Applicants in Nigeria', 'issuer' => 'PLTCI College of Medicine',
             'file' => 'assets/documents/015.pdf', 'preview' => 'img/PLTCI.jpg', 'facts' => [],
+            'wdoms_url' => 'https://search.wdoms.org/home/SchoolDetail/F0006833',
+            'wdoms_label' => 'View PLTCI College of Medicine in WDOMS',
             'scope' => ['Programme information', 'Student and parent counselling', 'Application-document support', 'Admission communication coordination', 'Pre-departure support', 'Administrative visa-document guidance'],
             'explanation' => 'This authorization enables Medcon Edu, within the stated scope and collaboration arrangement, to support Nigerian students applying to PLTCI College of Medicine.',
         ],
@@ -21,6 +23,8 @@ function accreditation_documents(): array {
             'stage' => '03', 'label' => 'Institutional Recognition', 'status' => 'Recognized',
             'title' => 'Student Recruitment and Support Authorization', 'issuer' => 'The Manila Times College School of Medicine',
             'file' => 'assets/documents/certificate_printable.pdf.pdf', 'preview' => 'img/TMTC.jpg', 'facts' => [],
+            'wdoms_url' => 'https://search.wdoms.org/home/SchoolDetail/F0007893',
+            'wdoms_label' => 'View TMTCS College of Medicine in WDOMS',
             'explanation' => 'This document recognizes Medcon Edu’s role in supporting prospective Nigerian students under the authorization and collaboration structure stated by the issuing institution.',
         ],
     ];

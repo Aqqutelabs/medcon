@@ -25,8 +25,12 @@
             <div>
                 <h2>Contact us</h2>
                 <a href="<?= e($whatsappUrl) ?>" target="_blank" rel="noopener">Chat on WhatsApp</a>
+                <a href="https://wa.me/2347088893414" target="_blank" rel="noopener">WhatsApp: +234 708 889 3414</a>
+                <a href="https://wa.me/2348031605998" target="_blank" rel="noopener">WhatsApp: +234 803 160 5998</a>
                 <a href="mailto:info@medconedu.org">info@medconedu.org</a>
                 <a href="tel:+2347036961056">+234 703 696 1056</a>
+                <a href="tel:+2347088893414">+234 708 889 3414</a>
+                <a href="tel:+2348031605998">+234 803 160 5998</a>
                 <nav class="footer-socials" aria-label="Follow Medcon on social media">
                     <a href="https://web.facebook.com/profile.php?id=61593932550773" target="_blank" rel="noopener noreferrer" aria-label="Medcon on Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h3V4h-3c-3.3 0-5 2-5 5v2H6v4h3v7h4v-7h3.3l.7-4h-4V9c0-.7.3-1 1-1Z"/></svg></a>
                     <a href="https://x.com/Medconedu" target="_blank" rel="noopener noreferrer" aria-label="Medcon on X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 3h4.8l4.1 5.8L18 3h2l-6.2 7.2L21 21h-4.8l-4.6-6.5L6 21H4l6.7-7.9L4 3Zm3.7 1.8 9.5 14.4h1.9L9.6 4.8H7.7Z"/></svg></a>
