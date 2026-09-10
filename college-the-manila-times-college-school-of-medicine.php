@@ -1,5 +1,5 @@
 <?php
-header('Location: schools/tmtcs/index.php', true, 302);
+header('Location: schools/tmtcs/', true, 302);
 exit;
 require __DIR__ . '/includes/site.php';
 $college = $collegeData[1];

@@ -38,7 +38,7 @@ render_header(
 ?>
         <div class="breadcrumb-bar">
             <div class="container">
-                <a href="index.php">Home</a>
+                <a href="./">Home</a>
                 <span>College of Health and Life Sciences</span>
                 <strong>Medcon Medical Admissions</strong>
             </div>

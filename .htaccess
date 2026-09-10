@@ -1,5 +1,12 @@
 RewriteEngine On
 
+# Canonicalize directory index URLs (for example /schools/pltci/index)
+# to the directory itself before handling other PHP redirects.
+RewriteCond %{REQUEST_METHOD} ^(?:GET|HEAD)$ [NC]
+RewriteCond %{THE_REQUEST} \s/+[^?\s]*index(?:\.php)?(?:[?\s]) [NC]
+RewriteCond %{REQUEST_URI} ^(.*/)index(?:\.php)?/?$ [NC]
+RewriteRule ^ %1 [R=301,L,NE]
+
 # Redirect browser requests for PHP pages to their extensionless URL.
 # Restrict this to GET/HEAD so form submissions and webhooks keep their method.
 RewriteCond %{REQUEST_METHOD} ^(?:GET|HEAD)$ [NC]

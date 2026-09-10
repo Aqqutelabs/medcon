@@ -1,5 +1,5 @@
 <?php
-header('Location: schools/pltci/index.php', true, 302);
+header('Location: schools/pltci/', true, 302);
 exit;
 require __DIR__ . '/includes/site.php';
 $college = $collegeData[0];

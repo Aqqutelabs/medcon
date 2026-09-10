@@ -15,14 +15,14 @@ render_header($page['title'] . ' | ' . $school['short'] . ' | Medcon', $page['in
 ?>
 <nav class="school-tabs" aria-label="<?= e($school['short']) ?> pages">
   <div class="container school-tabs-inner">
-    <a class="school-tab-brand" href="<?= e(site_url($schoolBase . 'index.php')) ?>"><img src="<?= e(site_url($school['logo'])) ?>" alt=""><span><?= e($school['short']) ?></span></a>
+    <a class="school-tab-brand" href="<?= e(site_url($schoolBase)) ?>"><img src="<?= e(site_url($school['logo'])) ?>" alt=""><span><?= e($school['short']) ?></span></a>
     <div class="school-tab-links">
-      <?php foreach ($school['pages'] as $key => $tab): ?><a class="<?= $key === $pageKey ? 'active' : '' ?>" href="<?= e(site_url($schoolBase . ($key === 'landing' ? 'index.php' : $key . '.php'))) ?>"><?= e($tab['label']) ?></a><?php endforeach; ?>
+      <?php foreach ($school['pages'] as $key => $tab): ?><a class="<?= $key === $pageKey ? 'active' : '' ?>" href="<?= e(site_url($schoolBase . ($key === 'landing' ? '' : $key . '.php'))) ?>"><?= e($tab['label']) ?></a><?php endforeach; ?>
     </div>
   </div>
 </nav>
 <nav class="school-breadcrumb" aria-label="Breadcrumb">
-  <div class="container"><a href="<?= e(site_url('index.php')) ?>">Home</a><span aria-hidden="true">/</span><a href="<?= e(site_url('colleges.php')) ?>">Partner colleges</a><span aria-hidden="true">/</span><a href="<?= e(site_url($schoolBase . 'index.php')) ?>"><?= e($school['short']) ?></a><span aria-hidden="true">/</span><strong aria-current="page"><?= e($page['label']) ?></strong></div>
+  <div class="container"><a href="<?= e(site_url('')) ?>">Home</a><span aria-hidden="true">/</span><a href="<?= e(site_url('colleges.php')) ?>">Partner colleges</a><span aria-hidden="true">/</span><a href="<?= e(site_url($schoolBase)) ?>"><?= e($school['short']) ?></a><span aria-hidden="true">/</span><strong aria-current="page"><?= e($page['label']) ?></strong></div>
 </nav>
 <section class="school-hero">
   <img src="<?= e(site_url($school['hero'])) ?>" alt="<?= e($school['name']) ?> campus" class="school-hero-image">

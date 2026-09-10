@@ -121,7 +121,7 @@ function render_breadcrumb($current, $parent = null, $parentHref = null) {
 ?>
         <div class="breadcrumb-bar">
             <div class="container">
-                <a href="<?= e(site_url('index.php')) ?>">Home</a>
+                <a href="<?= e(site_url('')) ?>">Home</a>
                 <?php if ($parent && $parentHref): ?>
                     <span><a href="<?= e(site_url($parentHref)) ?>"><?= e($parent) ?></a></span>
                 <?php endif; ?>
@@ -223,8 +223,8 @@ function render_faqs($faqs) {
 
 function render_college_card($college) {
     $schoolRoutes = [
-        'pltci-college-of-medicine' => 'schools/pltci/index.php',
-        'the-manila-times-college-school-of-medicine' => 'schools/tmtcs/index.php',
+        'pltci-college-of-medicine' => 'schools/pltci/',
+        'the-manila-times-college-school-of-medicine' => 'schools/tmtcs/',
     ];
     $collegeHref = $schoolRoutes[$college['slug']] ?? ('college-' . $college['slug'] . '.php');
 ?>

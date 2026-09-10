@@ -38,7 +38,7 @@ function auth_page_start(string $title, string $eyebrow, string $headline, strin
         <div class="mc-auth-slide-status" aria-hidden="true"><span data-auth-progress></span></div>
     </section>
     <section class="mc-auth-panel" id="auth-form">
-        <a class="mc-auth-brand" href="../index.php" aria-label="Medcon home"><img src="../img/logo-icon-blue.svg" alt=""><strong>Medcon Edu</strong></a>
+        <a class="mc-auth-brand" href="../" aria-label="Medcon home"><img src="../img/logo-icon-blue.svg" alt=""><strong>Medcon Edu</strong></a>
         <div class="mc-auth-panel-inner">
 <?php }
 

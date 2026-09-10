@@ -38,7 +38,7 @@
             </div>
         </div>
         <div class="container header-inner">
-            <a class="brand" href="<?= e(site_url('index.php')) ?>" aria-label="Medcon home">
+            <a class="brand" href="<?= e(site_url('')) ?>" aria-label="Medcon home">
                 <img src="<?= e(site_url('img/logo-icon.svg')) ?>" alt="Medcon" class="brand-logo">
             </a>
             <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" data-menu-toggle>

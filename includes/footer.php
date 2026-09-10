@@ -2,7 +2,7 @@
     <footer class="site-footer">
         <div class="container footer-grid">
             <div>
-                <a class="footer-brand" href="<?= e(site_url('index.php')) ?>" aria-label="Medcon home">
+                <a class="footer-brand" href="<?= e(site_url('')) ?>" aria-label="Medcon home">
                     <img src="<?= e(site_url('img/logo.svg')) ?>" alt="Medcon">
                 </a>
                 <p>Medcon helps African students and families access clear guidance for international medical education opportunities through partner institution pathways.</p>
