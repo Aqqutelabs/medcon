@@ -19,7 +19,10 @@ function handle_inquiry_submission(string $source):void{
   $stmt=$pdo->prepare("INSERT INTO inquiries(source_page,person_type,full_name,email,phone,country,education_level,preferred_programme,preferred_college,intended_intake,message,submission_channel,status,consent_at)VALUES(?,?,?,?,?,?,?,?,?,?,?,?,'not_contacted',NOW())");$stmt->execute([$source,$state['values']['person_type'],$state['values']['full_name'],strtolower($state['values']['email']),$state['values']['phone'],$state['values']['country'],$state['values']['education_level'],$state['values']['preferred_programme']?:null,$state['values']['preferred_college']?:null,$state['values']['intended_intake'],$state['values']['message']?:null,$channel]);$inquiryId=(int)$pdo->lastInsertId();
   if($channel==='whatsapp'){$lines=['Hello Medcon, I have submitted an enquiry.','Name: '.$state['values']['full_name'],'I am a: '.$options['person_type'][$state['values']['person_type']],'Email: '.$state['values']['email'],'Phone: '.$state['values']['phone'],'Country: '.$state['values']['country'],'Education: '.$state['values']['education_level'],'Programme: '.($state['values']['preferred_programme']?:'Not specified'),'College: '.($state['values']['preferred_college']?:'Not specified'),'Intended intake: '.$state['values']['intended_intake'],'Message: '.($state['values']['message']?:'None')];header('Location: https://wa.me/2347036961056?text='.rawurlencode(implode("\n",$lines)));exit;}
   $mailConfig=medcon_mail_config();medcon_notify_email($pdo,'inquiry.received',$state['values']['email'],'inquiry.received:inquiry:'.$inquiryId,['name'=>$state['values']['full_name'],'action_url'=>$mailConfig['base_url'].'/app/signup.php','eligibility_url'=>$mailConfig['base_url'].'/eligibility-checker.php','fees_url'=>$mailConfig['base_url'].'/colleges.php#fee-configurator'],'inquiry',$inquiryId);
-  $path=parse_url($_SERVER['REQUEST_URI']??'',PHP_URL_PATH)?:'';header('Location: '.$path.'?inquiry=received#inquiry-form');exit;
+  $path=parse_url($_SERVER['REQUEST_URI']??'',PHP_URL_PATH)?:'';
+  // Only a saved enquiry can authorize the thank-you conversion event.
+  $_SESSION['inquiry_conversion']=['path'=>$path,'expires'=>time()+600];
+  header('Location: '.$path.'?inquiry=received#inquiry-form');exit;
  }
  $GLOBALS['medcon_inquiry_state']=$state;
 }

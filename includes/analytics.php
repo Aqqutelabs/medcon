@@ -12,6 +12,21 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-FZ8QPG3B9T');
 </script>
+<?php
+$inquiryConversion = $_SESSION['inquiry_conversion'] ?? null;
+if (is_array($inquiryConversion)
+    && ($inquiryConversion['expires'] ?? 0) >= time()
+    && ($_SERVER['REQUEST_METHOD'] ?? '') === 'GET'
+    && ($_GET['inquiry'] ?? '') === 'received'
+    && ($inquiryConversion['path'] ?? null) === parse_url($_SERVER['REQUEST_URI'] ?? '', PHP_URL_PATH)):
+    // Consume before rendering so refreshes do not send another conversion.
+    unset($_SESSION['inquiry_conversion']);
+?>
+<!-- Google tag (gtag.js) event -->
+<script>
+gtag('event', 'conversion_event_default', {});
+</script>
+<?php endif; ?>
 <!-- Google tag (gtag.js) event - delayed navigation helper -->
 <script>
 // Call in response to an action that should navigate after sending the event.
