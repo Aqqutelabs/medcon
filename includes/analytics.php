@@ -24,7 +24,7 @@ if (is_array($inquiryConversion)
 ?>
 <!-- Google tag (gtag.js) event -->
 <script>
-gtag('event', 'conversion_event_default', {});
+gtag('event', 'conversion_event_submit_lead_form', {});
 </script>
 <?php endif; ?>
 <!-- Google tag (gtag.js) event - delayed navigation helper -->
