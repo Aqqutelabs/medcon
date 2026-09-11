@@ -6,6 +6,7 @@ function admin_portal_header(array $user, string $active): void {
         'agents' => ['Agents', 'admin/agents.php'],
         'inquiries' => ['Inquiries', 'admin/inquiries.php'],
         'leads' => ['Eligibility leads', 'admin/leads.php'],
+        'calculator' => ['Website analytics', 'admin/calculator.php'],
     ];
     ?>
     <header class="mc-role-topbar mc-admin-topbar">

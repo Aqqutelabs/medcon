@@ -218,6 +218,20 @@
         const money = (value) => new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0}).format(value);
         const naira = (value) => '₦' + new Intl.NumberFormat('en-NG',{maximumFractionDigits:0}).format(value);
         const selected = (name) => form.querySelector(`[name="${name}"]:checked`)?.value || form.elements[name]?.value;
+        const activityId = () => window.crypto?.randomUUID?.() || Date.now().toString(36) + Math.random().toString(36).slice(2) + Math.random().toString(36).slice(2);
+        const visitId = activityId();
+        const track = (event) => {
+            const selection = {college: selected('college'), background: selected('background'), package: selected('package')};
+            try {
+                fetch(new URL('calculator-event.php', window.location.href), {
+                    method: 'POST', headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({event, ...selection, id: activityId(), visit: visitId}), keepalive: true
+                }).catch(() => {});
+            } catch (_) { /* Analytics must not interrupt the calculator. */ }
+            try { if (typeof window.gtag === 'function') window.gtag('event', 'fee_calculator_' + event, selection); } catch (_) {}
+        };
+        let engaged = false;
+        const engage = () => { if (!engaged) { engaged = true; track('engaged'); } };
         const sharedConfig=new URLSearchParams(window.location.search);
         ['background','package'].forEach((name)=>{const value=sharedConfig.get(name),control=value?form.querySelector(`[name="${name}"][value="${value}"]`):null;if(control)control.checked=true;});
         if(colleges[sharedConfig.get('college')])form.elements.college.value=sharedConfig.get('college');
@@ -242,10 +256,27 @@
             const years=[]; if(hasPremed)years.push(['Pre-Med / foundation',college.premed,college.living[0]+college.accommodation[0]]); college.tuition.forEach((fee,i)=>years.push([i===4?'Final semester':'MD Year '+(i+1),fee,college.living[i]+college.accommodation[i]]));
             calculator.querySelector('[data-year-rows]').innerHTML=years.map(([stage,fee,other])=>`<tr><td>${stage}</td><td>${money(fee)}</td><td>${money(other)}</td><td><strong>${money(fee+other)}</strong></td></tr>`).join('');
         };
-        form.addEventListener('change',render);
+        form.addEventListener('change', () => { render(); engage(); track('change'); });
         const configuredUrl=()=>{const url=new URL(window.location.href);url.searchParams.set('background',selected('background'));url.searchParams.set('college',form.elements.college.value);url.searchParams.set('package',selected('package'));url.hash='fee-configurator';return url.toString();};
-        calculator.querySelector('[data-share-estimate]')?.addEventListener('click',async()=>{const data={title:'My Medcon fee configuration',text:'View my personalised medical-school fee configuration.',url:configuredUrl()};if(navigator.share){try{await navigator.share(data);}catch(error){if(error.name!=='AbortError'&&navigator.clipboard)await navigator.clipboard.writeText(configuredUrl());}}else if(navigator.clipboard){await navigator.clipboard.writeText(configuredUrl());window.alert('Configured estimate link copied.');}});
+        calculator.querySelector('[data-share-estimate]')?.addEventListener('click', async () => {
+            engage(); track('share_attempt');
+            const url = new URL(configuredUrl()); url.searchParams.set('fee_shared', '1');
+            const copy = async () => {
+                if (!navigator.clipboard) { window.prompt('Copy this estimate link:', url.toString()); return; }
+                await navigator.clipboard.writeText(url.toString());
+                track('copy_success'); window.alert('Configured estimate link copied.');
+            };
+            try {
+                if (navigator.share) {
+                    try {
+                        await navigator.share({title:'My Medcon fee configuration', text:'View my personalised medical-school fee configuration.', url:url.toString()});
+                        track('share_success');
+                    } catch (error) { if (error.name !== 'AbortError') await copy(); }
+                } else await copy();
+            } catch (_) { window.prompt('Copy this estimate link:', url.toString()); }
+        });
         calculator.querySelector('[data-download-estimate]')?.addEventListener('click',()=>{
+            engage(); track('pdf_request');
             document.querySelector('.fee-print-receipt')?.remove();
             const college=colleges[form.elements.college.value], background=form.querySelector('[name="background"]:checked').closest('label').querySelector('strong').textContent;
             const receipt=document.createElement('section');receipt.className='fee-print-receipt';
@@ -253,5 +284,7 @@
             document.body.appendChild(receipt);window.print();window.setTimeout(()=>receipt.remove(),1000);
         });
         render();
+        track('view');
+        if (sharedConfig.get('fee_shared') === '1') track('shared_visit');
     });
 })();

@@ -1,6 +1,8 @@
 <?php
 // Shared by every rendered website and portal page. IDs are public identifiers.
 $medconPixelId = trim((string) (getenv('MEDCON_META_PIXEL_ID') ?: '1789076078941935'));
+require_once __DIR__ . '/site-activity.php';
+echo site_activity_markup();
 ?>
 <!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-FZ8QPG3B9T"></script>
@@ -9,6 +11,22 @@ window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-FZ8QPG3B9T');
+</script>
+<!-- Google tag (gtag.js) event - delayed navigation helper -->
+<script>
+// Call in response to an action that should navigate after sending the event.
+function gtagSendEvent(url) {
+    var callback = function () {
+        if (typeof url === 'string') {
+            window.location = url;
+        }
+    };
+    gtag('event', 'ads_conversion_Submit_lead_form_1', {
+        'event_callback': callback,
+        'event_timeout': 2000
+    });
+    return false;
+}
 </script>
 <?php if (preg_match('/^[0-9]+$/D', $medconPixelId)): ?>
 <!-- Meta Pixel -->

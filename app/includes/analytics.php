@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 function medcon_ga4_markup(): string
 {
-    return '<!-- Google tag (gtag.js) --><script async src="https://www.googletagmanager.com/gtag/js?id=G-FZ8QPG3B9T"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date());gtag("config","G-FZ8QPG3B9T");</script>';
+    return '<!-- Google tag (gtag.js) --><script async src="https://www.googletagmanager.com/gtag/js?id=G-FZ8QPG3B9T"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date());gtag("config","G-FZ8QPG3B9T");</script><!-- Google tag (gtag.js) event - delayed navigation helper --><script>function gtagSendEvent(url){var callback=function(){if(typeof url==="string"){window.location=url;}};gtag("event","ads_conversion_Submit_lead_form_1",{"event_callback":callback,"event_timeout":2000});return false;}</script>';
 }
 
 function medcon_meta_pixel_markup(): string
@@ -25,6 +25,8 @@ function medcon_enable_ga4(): void
         $headEnd = stripos($html, '</head>');
         if ($headEnd === false) return $html;
         $headMarkup='';
+        require_once dirname(__DIR__, 2) . '/includes/site-activity.php';
+        if(strpos($html,'internal-analytics.js')===false)$headMarkup.=site_activity_markup();
         if(strpos($html,'G-FZ8QPG3B9T')===false)$headMarkup.=medcon_ga4_markup();
         if(strpos($html,'1789076078941935')===false)$headMarkup.=medcon_meta_pixel_markup();
         if($headMarkup!=='')$html=substr_replace($html,$headMarkup,$headEnd,0);
