@@ -1,6 +1,10 @@
 .env.cloudflare
 /data/calculator-activity.json
 /data/site-activity.sqlite*
+
+# Server-managed blog
+/resources/
+
 # Apache configuration
 .htaccess
 **/.htaccess
